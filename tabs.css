@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Fraunces&family=Gothic+A1&family=IBM+Plex+Mono:ital,wght@1,300&family=Montserrat:wght@500;700&family=Orbitron&family=Oswald:wght@300&family=Playfair+Display:wght@500&family=Roboto:wght@100;400&family=Rock+3D&family=Rouge+Script&family=Wavefont:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@keyframes slide-in {
+    0% {transform: translateY(150px); }   
+  100% {transform: translateY(0); }
+}
+
+header{
+    text-align: center;
+    width:100%;
+    height: 75px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #131212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    overflow-x: hidden;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+}
+.fonts4{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 20px;
+}
+.font4 a{
+    text-decoration: none;
+    color:inherit;
+}
+#menu_list{
+    background-color: #131212;
+    visibility: hidden;
+    font-size: 0px;
+    padding:0px;
+    margin: 0px;
+}
+#menu_list ol{
+    width:100%;
+    background-color:#131212;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    list-style-type:none;
+}
+#menu_list li{
+    color:white;
+    text-decoration: none;
+    padding-left: 50px;
+}
+.tab1{
+    height:50vh;
+    width:100%;
+    padding:25px;
+    background-image: url(World_Tour_.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tab2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tab2 h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size:30px;
+    padding-top: 35px;
+    margin:25px;
+}
+#tab2tik{
+    width:100%;
+    padding:25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth !important;
+}
+#tab2tik .nation_block{
+    flex:0 0 auto;
+    height:300px;
+    width:350px;
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+#tab2tik .nation_block .card_name{
+    font-weight: bolder;
+    font-size:20px;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+#tab2tik::-webkit-scrollbar{
+    width:600px;
+}
+#tab2tik::-webkit-scrollbar-track{
+    background-color: #131212;
+    margin-inline:35px;
+    border-radius: 5px;
+}
+#tab2tik::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.nation_block img{
+    width:75px;
+    height:75px;
+}
+.font1{
+    animation: slide-in 1s ;
+    font-family: 'Orbitron', sans-serif;
+    margin-top:35px;
+    margin-left: 25px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.font2{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;    
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.font4{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 20px;
+}
+.font4 a{
+    text-decoration: none;
+    color:inherit;
+}
+.ann{
+    width:100%;
+    margin:10px;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+footer{
+    width:100%;
+    background-color: #131212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.f-font{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:20px;
+}
+.list{
+    height:150px;
+    width:100%;
+    display: flex;
+    padding:15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul li{
+    padding-top:10px;
+}
+.final{
+    padding:10px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.Logo{
+    filter:invert(1);
+    opacity:0.75;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+    height:100px;
+}
+.icon{
+    width:35px;
+    height:35px;
+}
