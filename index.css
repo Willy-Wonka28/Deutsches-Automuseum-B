@@ -10,7 +10,10 @@
     -ms-user-select: none; 
     user-select: none;
 }
-
+*:focus {
+    outline: 0;
+    outline: none;
+    }
 @keyframes slide-in {
     0% {transform: translateY(150px); }   
   100% {transform: translateY(0); }
@@ -280,7 +283,10 @@ footer{
       -ms-user-select: none; 
       user-select: none;
   }
-  
+  *:focus {
+    outline: 0;
+    outline: none;
+    }
   @keyframes slide-in {
       0% {transform: translateY(150px); }   
     100% {transform: translateY(0); }
@@ -314,7 +320,7 @@ footer{
   .main1{
       height:100vh;
       width:100%;
-      background-image: url(pexels-jean-marc-bonnel-17898620.jpg);
+      background-image: url(jpeg-optimizer_pexels-jean-marc-bonnel-17898620.jpg);
       background-size: cover;
       background-position:center;
       background-repeat: no-repeat;
@@ -324,6 +330,7 @@ footer{
       flex-direction: column;
   }
   .font1{
+    animation: slide-in 1s;
       font-family: 'Orbitron', sans-serif;
       font-size: 30px; 
       text-align: center;
