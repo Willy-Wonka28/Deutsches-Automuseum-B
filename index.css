@@ -295,15 +295,14 @@ footer{
   
   
   header{
-      width:100%;
-      height:100px;
+        text-align: center;
+      height:70px;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-bottom: 5px solid rgba(25, 24, 24, 0.9);
       background-color: #131212;
       display: flex;
-  }
-  nav{
-      width: 100%;
-      display: flex;
-      justify-content: space-around;
+      justify-content:space-between;
       align-items: center;
   }
   body{
@@ -326,17 +325,19 @@ footer{
   }
   .font1{
       font-family: 'Orbitron', sans-serif;
-      margin-top:-25px;
-      /* for now */
-      font-size: 0px; 
+      font-size: 30px; 
       text-align: center;
   }
   .font2{
-      font-family: 'Montserrat', sans-serif;
-      text-align: center;
-      text-wrap: nowrap;
-      font-size: 20px;
-      font-weight: bold;
+      font-size: 0px;
+      height:100px;
+      width:100px;
+      margin-inline: 75px;
+      background-image: url(Screenshot\ \(4231\)r.png);
+      background-size: contain;
+      background-position:center;
+      background-repeat: no-repeat;
+      filter:invert(1)
   }
   .font4{
       font-family: 'Montserrat', sans-serif;
