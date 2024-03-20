@@ -330,8 +330,8 @@ footer{
   }
   .font2{
       font-size: 0px;
-      height:100px;
-      width:100px;
+      height:180px;
+      width:180px;
       margin-inline: 75px;
       background-image: url(Screenshot\ \(4231\)r.png);
       background-size: contain;
@@ -341,11 +341,11 @@ footer{
   }
   .font4{
       font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
+      font-size: 20px;
   }
   .fonts4{
       font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
+      font-size: 20px;
   }
   .font4 a{
       text-decoration: none;
