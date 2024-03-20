@@ -312,9 +312,9 @@ footer{
       background-color: black;
   }
   .main1{
-      height:175px;
+      height:100vh;
       width:100%;
-      background-image: url(Rolls.png);
+      background-image: url(pexels-jean-marc-bonnel-17898620.jpg);
       background-size: cover;
       background-position:center;
       background-repeat: no-repeat;
