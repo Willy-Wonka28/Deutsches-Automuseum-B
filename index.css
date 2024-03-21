@@ -291,7 +291,23 @@ footer{
       0% {transform: translateY(150px); }   
     100% {transform: translateY(0); }
   }
-  
+  @keyframes img_transition{
+    0%{
+        background-image: url(jpeg-optimizer_4.png);
+    }
+    25%{
+        background-image: url(jpeg-optimizer_5.png);
+    }
+    50%{
+        background-image: url(jpeg-optimizer_Deutsches\ Automuseum.png);
+    }
+    75%{
+        background-image: url(jpeg-optimizer_6.png);
+    }
+    100%{
+        background-image: url(jpeg-optimizer_7.png);
+    }
+  }
   .slide{
       animation: slide-in 3s;
   }
@@ -318,7 +334,7 @@ footer{
       background-color: black;
   }
   .main1{
-      height:100vh;
+      height:75vh;
       width:100%;
       background-image: url(jpeg-optimizer_pexels-jean-marc-bonnel-17898620.jpg);
       background-size: cover;
@@ -380,8 +396,8 @@ footer{
       padding-left: 5px;
   }
   .worldvid{
-      width: 100%;
-      height:200px;
+      width: 0%;
+      visibility: hidden;
       object-fit: cover;
       position: absolute;
       left: 0;
@@ -389,11 +405,18 @@ footer{
       top: 0;
       bottom: 0;
       z-index: -1;
-      opacity: 0.5;
+  }
+  .main1, .main2, .main3, .main4{
+    border-bottom: solid 2px #242424;
   }
   .main2{
+    height:50vh;
+    width:100%;
+    animation: img_transition 20s infinite;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
       position: relative;
-      height:200px;
       display: flex;
       justify-content:space-evenly;
       align-items: center;
@@ -401,7 +424,8 @@ footer{
       font-weight: lighter;
   }
   .main2 h1{
-      font-size: 20px;
+      font-size: 30px;
+      text-align: center;
       font-weight: lighter;
       font-family: 'Montserrat', sans-serif;
       text-align: center;
@@ -425,15 +449,16 @@ footer{
       text-transform: uppercase;
   }
   .submain{
-      width:75%;
-      height:75%;
+      width:85%;
+      height:85%;
       display: flex;
       justify-content:space-evenly;
       align-items: center;
       flex-direction: column;
   }
   .submain h3{
-    font-size: 11px;
+    font-size: 20px;
+    text-align: center;
     padding-bottom: 5px;
   }
   .world{
@@ -442,18 +467,17 @@ footer{
   }
   button{
       border:none;
-      width:100px;
+      width:125px;
       height:20px;
       border-radius:10px;
       display: flex;
       justify-content:center;
       align-items: center;
-      font-size:7px;
-      font-weight: bold;
+      font-size:11px;
   }
   .subtext{
       height:100px;
-      font-size: 7px;
+      font-size: 14px;
       text-align: center;
       display: flex;
       justify-content: space-around;
@@ -464,16 +488,15 @@ footer{
       background-color: #242424;
   }
   .main3 h1, .main4 h1{
-   font-size: 15px;
+   font-size: 20px;
 }
   .main3{
-    height:200px;
-      width:100%;
-      padding:10px;
-      background-image: url(Deutsches\ Automuseum.png);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+    height:50vh;
+    width:100%;
+    background-image: url(Deutsches\ Automuseum.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
@@ -481,13 +504,12 @@ footer{
       font-weight: lighter;
   }
   .main4{
-    height:200px;
-      width:100%;
-      padding:10px;
-      background-image: url(Car_Awards.png);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+    height:50vh;
+    width:100%;
+    background-image: url(Car_Awards.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
@@ -505,16 +527,14 @@ footer{
   .f-font{
       padding-top: 10px;
       padding-bottom: 10px;
-      font-size:10px;
+      font-size:15px;
   }
   .list{
-      height:70px;
       width:100%;
-      display: flex;
+      height:100%;
       padding:10px;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: row;
+      opacity: 0.8;
+      display: inline-block;
       border-bottom: solid 1px #fff;
       border-top: solid 1px #fff;
   }
@@ -523,7 +543,7 @@ footer{
   }
   .list ul li{
       padding-top:5px;
-      font-size: 7px;
+      font-size: 13px;
   }
   .final{
       padding:5px;
@@ -543,7 +563,7 @@ footer{
       height:35px;
   }
   .icon{
-      width:15px;
-      height:15px;
+      width:25px;
+      height:25px;
   }
 }
