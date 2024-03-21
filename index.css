@@ -411,7 +411,7 @@ footer{
     border-bottom: solid 2px #242424;
   }
   .main2{
-    height:50vh;
+    height:75vh;
     width:100%;
     animation: img_transition 20s infinite;
     background-size: cover;
@@ -425,7 +425,7 @@ footer{
       font-weight: lighter;
   }
   .main2 h1{
-      font-size: 30px;
+      font-size: 35px;
       text-align: center;
       font-weight: lighter;
       font-family: 'Montserrat', sans-serif;
@@ -458,7 +458,7 @@ footer{
       flex-direction: column;
   }
   .submain h3{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     padding-bottom: 5px;
   }
@@ -468,20 +468,20 @@ footer{
   }
   button{
       border:3px solid white;
-      width:125px;
+      width:165px;
+      margin-top: 20px;
       background-color: transparent;
-      height:20px;
+      height:30px;
       color:white;
       border-radius:0px;
       display: flex;
       justify-content:center;
       align-items: center;
-      font-size:12px;
-      font-weight: bold;
+      font-size:16px;
   }
   .subtext{
       height:100px;
-      font-size: 14px;
+      font-size: 20px;
       text-align: center;
       display: flex;
       justify-content: space-around;
@@ -492,10 +492,10 @@ footer{
       background-color: #242424;
   }
   .main3 h1, .main4 h1{
-   font-size: 20px;
+   font-size: 30px;
 }
   .main3{
-    height:50vh;
+    height:55vh;
     width:100%;
     background-image: url(Deutsches\ Automuseum.png);
     background-size: cover;
@@ -508,7 +508,7 @@ footer{
       font-weight: lighter;
   }
   .main4{
-    height:50vh;
+    height:68vh;
     width:100%;
     background-image: url(Car_Awards.png);
     background-size: cover;
