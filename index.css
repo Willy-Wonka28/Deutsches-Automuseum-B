@@ -483,7 +483,8 @@ footer{
       display: flex;
       justify-content:center;
       align-items: center;
-      font-size:16px;
+      font-size:14px;
+      font-weight: bold;
   }
   .subtext{
       height:100px;
@@ -516,7 +517,7 @@ footer{
   .main4{
     height:50vh;
     width:100%;
-    background-image: url(jpeg-optimizer_DA.png);
+    background-image: url(devon-janse-van-rensburg-2h3UGhof_fU-unsplash_batcheditor_fotor.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
