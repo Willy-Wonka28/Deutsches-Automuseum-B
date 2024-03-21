@@ -467,14 +467,17 @@ footer{
       height:25px;
   }
   button{
-      border:none;
+      border:3px solid white;
       width:125px;
+      background-color: transparent;
       height:20px;
-      border-radius:10px;
+      color:white;
+      border-radius:0px;
       display: flex;
       justify-content:center;
       align-items: center;
-      font-size:11px;
+      font-size:12px;
+      font-weight: bold;
   }
   .subtext{
       height:100px;
@@ -528,7 +531,7 @@ footer{
   .f-font{
       padding-top: 10px;
       padding-bottom: 10px;
-      font-size:15px;
+      font-size:20px;
   }
   .list{
       width:100%;
@@ -544,7 +547,7 @@ footer{
   }
   .list ul li{
       padding-top:5px;
-      font-size: 13px;
+      font-size: 18px;
   }
   .final{
       padding:5px;
@@ -560,11 +563,11 @@ footer{
       display:block;
       margin-left: auto;
       margin-right: auto;
-      width:35px;
-      height:35px;
+      width:40px;
+      height:40px;
   }
   .icon{
-      width:25px;
-      height:25px;
+      width:37px;
+      height:37px;
   }
 }
