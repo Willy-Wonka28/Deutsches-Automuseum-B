@@ -17,8 +17,8 @@ function showMaterials() {
     // Show materials
     for (var i = 0; i < materials.length; i++) {
         materials[i].style.visibility = "visible";
-        materials[i].style.fontSize = "calc(2.5vw + 1px)";
-        materials[i].style.padding = "calc(3vw + 3px)";
+        materials[i].style.fontSize = "calc(1.5vw + 1px)";
+        materials[i].style.padding = "calc(2vw + 2px)";
     }
 
     setTimeout(function () {
