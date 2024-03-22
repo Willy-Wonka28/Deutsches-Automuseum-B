@@ -370,7 +370,8 @@ footer{
       font-size: 0px;
       height:20vw;
       width: 20vw;
-      margin-inline: 3em;
+      margin-inline: 10vw;
+      padding-inline: 1.5vw;
       background-image: url(Screenshot\ \(4231\)r.png);
       background-size: contain;
       background-position:center;
