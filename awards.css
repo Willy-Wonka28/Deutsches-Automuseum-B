@@ -73,6 +73,7 @@ body{
     padding-left: 50px;
 }
 .font2{
+    text-wrap: nowrap;
     font-family: 'Montserrat', sans-serif;
     width: 100%;    
     text-align: center;

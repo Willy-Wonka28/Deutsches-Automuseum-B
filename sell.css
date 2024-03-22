@@ -14,13 +14,13 @@
 }
 header{
     text-align: center;
-    width:100%;
-    height: 75px;
-    padding-left: 5px;
-    padding-right: 5px;
+    height:4.3em;
+    padding-left: 0.32em;
+    padding-right: 0.32em;
+    border-bottom: 0.32em solid rgba(25, 24, 24, 0.9);
     background-color: #131212;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 nav{
@@ -30,6 +30,7 @@ nav{
     align-items: center;
 }
 body{
+    height: 100vh;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -38,23 +39,15 @@ body{
 .font2{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
+    text-wrap: nowrap;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.8em;
     font-weight: bold;
 }
 .font4{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    font-size: 20px;
-}
-.font4 a{
-    text-decoration: none;
-    color:inherit;
-}
-.font4{
-    font-family: 'Montserrat', sans-serif;
-    width: 100%;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 .font4 a{
     text-decoration: none;
@@ -79,12 +72,12 @@ body{
 #menu_list li{
     color:white;
     text-decoration: none;
-    padding-left: 50px;
+    padding-left: 3em;
 }
 .fonts4{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #fff;
     text-shadow:
       0 0 7px #fff,
@@ -98,7 +91,7 @@ body{
 }
 .sell_div{
     width:100%;
-    height:500px;
+    height:70vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -161,10 +154,548 @@ footer{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width:100px;
-    height:100px;
+    width:2.5em;
+    height:2.5em;
 }
 .icon{
-    width:35px;
-    height:35px;
+    width:2.1em;
+    height:2.1em;
+}
+
+@media (max-width:576px){
+    
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Fraunces&family=Gothic+A1&family=IBM+Plex+Mono:ital,wght@1,300&family=Montserrat:wght@500;700&family=Orbitron&family=Oswald:wght@300&family=Playfair+Display:wght@500&family=Roboto:wght@100;400&family=Rock+3D&family=Rouge+Script&family=Wavefont:wght@200&display=swap');
+
+*{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+header{
+    text-align: center;
+    height:4.3em;
+    padding-left: 0.32em;
+    padding-right: 0.32em;
+    border-bottom: 0.32em solid rgba(25, 24, 24, 0.9);
+    background-color: #131212;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    height: 100vh;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+}
+.font2{
+    font-size: 0px;
+    height:20vw;
+    width: 20vw;
+    margin-inline: 10vw;
+    padding-inline: 1.5vw;
+    background-image: url(Screenshot\ \(4231\)r.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    filter:invert(1)
+}
+.font4{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size:1em;
+}
+.font4 a{
+    text-decoration: none;
+    color:inherit;
+}
+}
+#menu_list{
+    background-color: #131212;
+    visibility: hidden;
+    font-size: 0px;
+    padding:0px;
+    margin: 0px;
+}
+#menu_list ol{
+    width:100%;
+    background-color:#131212;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    list-style-type:none;
+}
+#menu_list li{
+    color:white;
+    text-decoration: none;
+    padding-left: 3em;
+}
+.fonts4{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 1em;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 21px #fff,
+      0 0 92px rgb(253, 250, 250),
+      0 0 151px rgb(253, 250, 250);
+}
+.fonts4 a{
+    text-decoration: none;
+    color:inherit;
+}
+.sell_div{
+    width:100%;
+    height:70vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.inp input, button{
+    width: 52.08333vw;
+height: 8.33333vw;
+padding: 1.73611vw;
+margin-bottom: 1.73611vw;
+border: none;
+border-radius: 0.5em;
+font-size: 3.5vw;
+
+}
+.inp button{
+    color:white;
+    background-color: #131212;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    width:100%;
+    background-color: #131212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.f-font{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:2.5vw;
+}
+.list{
+    width:100%;
+    font-size: 1em;
+    height:100%;
+    padding:10px;
+    opacity: 0.8;
+    display: inline-block;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul li{
+    padding-top:10px;
+}
+.final{
+    padding:10px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.Logo{
+    filter:invert(1);
+    opacity:0.75;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:4vw;
+    height:4vw;
+}
+.icon{
+    width:3.8vw;
+    height:3.8vw;
+}
+
+@media (min-width:576px) and (max-width:1023px){
+    @import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Fraunces&family=Gothic+A1&family=IBM+Plex+Mono:ital,wght@1,300&family=Montserrat:wght@500;700&family=Orbitron&family=Oswald:wght@300&family=Playfair+Display:wght@500&family=Roboto:wght@100;400&family=Rock+3D&family=Rouge+Script&family=Wavefont:wght@200&display=swap');
+
+*{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+header{
+    text-align: center;
+    height:4.3em;
+    padding-left: 0.32em;
+    padding-right: 0.32em;
+    border-bottom: 0.32em solid rgba(25, 24, 24, 0.9);
+    background-color: #131212;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    height: 100vh;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+}
+.font2{
+    font-size: 0px;
+    height:18vw;
+    width: 18vw;
+    margin-inline: 10vw;
+    padding-inline: 1.5vw;
+    background-image: url(Screenshot\ \(4231\)r.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    filter:invert(1)
+}
+.font4{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size:3.25vw;
+}
+.font4 a{
+    text-decoration: none;
+    color:inherit;
+}
+}
+#menu_list{
+    background-color: #131212;
+    visibility: hidden;
+    font-size: 0px;
+    padding:0px;
+    margin: 0px;
+}
+#menu_list ol{
+    width:100%;
+    background-color:#131212;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    list-style-type:none;
+}
+#menu_list li{
+    color:white;
+    text-decoration: none;
+    padding-left: 3em;
+}
+.fonts4{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 3.25vw;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 21px #fff,
+      0 0 92px rgb(253, 250, 250),
+      0 0 151px rgb(253, 250, 250);
+}
+.fonts4 a{
+    text-decoration: none;
+    color:inherit;
+}
+.sell_div{
+    width:100%;
+    height:70vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sell_div h3{
+    font-size: 3.75vw;
+}
+.inp input, button{
+    width: 52.08333vw;
+height: 8.33333vw;
+padding: 1.73611vw;
+margin-bottom: 1.73611vw;
+border: none;
+border-radius: 0.5em;
+font-size: 3vw;
+
+}
+.inp button{
+    color:white;
+    background-color: #131212;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    width:100%;
+    background-color: #131212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.f-font{
+    padding-top: 10px;
+      padding-bottom: 10px;
+      font-size:3.25vw;
+}
+.list{
+    width:100%;
+    font-size: 1em;
+    height:100%;
+    padding:10px;
+    opacity: 0.8;
+    display: inline-block;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul li{
+    padding-top:10px;
+    font-size: 3vw;
+}
+.final{
+    padding:10px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.Logo{
+    filter:invert(1);
+    opacity:0.75;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:2.5vw;
+    height:2.5vw;
+}
+.icon{
+    width:2.1vw;
+    height:2.1vw;
+}
+@media (min-width:1024px){
+    
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Fraunces&family=Gothic+A1&family=IBM+Plex+Mono:ital,wght@1,300&family=Montserrat:wght@500;700&family=Orbitron&family=Oswald:wght@300&family=Playfair+Display:wght@500&family=Roboto:wght@100;400&family=Rock+3D&family=Rouge+Script&family=Wavefont:wght@200&display=swap');
+
+*{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+header{
+    text-align: center;
+    height:4.3em;
+    padding-left: 0.32em;
+    padding-right: 0.32em;
+    border-bottom: 0.32em solid rgba(25, 24, 24, 0.9);
+    background-color: #131212;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    height: 100vh;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+}
+.font2{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-wrap: nowrap;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.font4{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 1.25em;
+}
+.font4 a{
+    text-decoration: none;
+    color:inherit;
+}
+#menu_list{
+    background-color: #131212;
+    visibility: hidden;
+    font-size: 0px;
+    padding:0px;
+    margin: 0px;
+}
+#menu_list ol{
+    width:100%;
+    background-color:#131212;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    list-style-type:none;
+}
+#menu_list li{
+    color:white;
+    text-decoration: none;
+    padding-left: 3em;
+}
+.fonts4{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 1.25em;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 21px #fff,
+      0 0 92px rgb(253, 250, 250),
+      0 0 151px rgb(253, 250, 250);
+}
+.fonts4 a{
+    text-decoration: none;
+    color:inherit;
+}
+.sell_div{
+    width:100%;
+    height:70vh;
+    display: flex;
+    padding:2em;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.sell_div div .instruct{
+    font-size: 3vw;
+    width:45vw;
+}
+.sell_div form{
+    width:45vw;
+}
+.inp input, button{
+    width: 20vw;
+    height: 2vw;
+    padding: 1.7vw;
+    margin-bottom: 1.7vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    
+}
+.inp button{
+    color:white;
+    background-color: #131212;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+}
+.button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp button h3{
+    font-size: 2vw;
+}
+footer{
+    width:100%;
+    background-color: #131212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.f-font{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:2.2vw;
+}
+.list{
+    height:100%;
+    width:100%;
+    display: flex;
+    padding:15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul li{
+    padding-top:10px;
+    font-size: 1.8vw;
+}
+.final{
+    padding:10px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.Logo{
+    filter:invert(1);
+    opacity:0.75;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:2.5em;
+    height:2.5em;
+}
+.icon{
+    width:2.1em;
+    height:2.1em;
+}
 }
