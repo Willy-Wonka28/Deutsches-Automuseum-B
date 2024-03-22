@@ -327,12 +327,12 @@ footer{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width:4vw;
-    height:4vw;
+    width:2.5em;
+    height:2.5em;
 }
 .icon{
-    width:3.8vw;
-    height:3.8vw;
+    width:2.1em;
+    height:2.1em;
 }
 
 @media (min-width:576px) and (max-width:1023px){
@@ -503,12 +503,12 @@ footer{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width:2.5vw;
-    height:2.5vw;
+    width:2.5em;
+    height:2.5em;
 }
 .icon{
-    width:2.1vw;
-    height:2.1vw;
+    width:2.1em;
+    height:2.1em;
 }
 @media (min-width:1024px){
     
