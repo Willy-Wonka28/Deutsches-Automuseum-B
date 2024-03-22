@@ -621,11 +621,11 @@ body{
 .inp input, button{
     width: 20vw;
     height: 2vw;
-    padding: 1.7vw;
+    padding: 1.5vw;
     margin-bottom: 1.7vw;
     border: none;
     border-radius: 5px;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     
 }
 .inp button{
@@ -644,9 +644,10 @@ body{
     align-items: center;
 }
 .inp button h3{
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 footer{
+    opacity:1;
     width:100%;
     background-color: #131212;
     display: flex;
@@ -657,9 +658,10 @@ footer{
 .f-font{
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size:2.2vw;
+    font-size:20px;
 }
 .list{
+    opacity:1;
     height:100%;
     width:100%;
     display: flex;
@@ -675,9 +677,10 @@ footer{
 }
 .list ul li{
     padding-top:10px;
-    font-size: 1.8vw;
+    font-size: 1em;
 }
 .final{
+    opacity: 1;
     padding:10px;
     width:100%;
     display: flex;
@@ -691,11 +694,11 @@ footer{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width:2.5em;
-    height:2.5em;
+    width:5vw;
+    height:5vw;
 }
 .icon{
-    width:2.1em;
-    height:2.1em;
+    width:3vw;
+    height:3vw;
 }
 }
