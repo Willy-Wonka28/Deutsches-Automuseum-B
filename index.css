@@ -483,7 +483,7 @@ footer{
   }
   button{
       border:3px solid white;
-      width:calc(10.3em + 18px);
+      width:calc(10.3em + 21px);
       margin-top: 20px;
       text-wrap: nowrap;
       padding:1em;
@@ -794,7 +794,7 @@ footer{
   }
   button{
       border:3px solid white;
-      width:calc(10.3em + 18px);
+      width:calc(10.3em + 21px);
       margin-top: 20px;
       padding:1em;
       background-color: transparent;
