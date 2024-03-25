@@ -483,8 +483,9 @@ footer{
   }
   button{
       border:3px solid white;
-      width:calc(10.3em + 15px);
+      width:calc(10.3em + 18px);
       margin-top: 20px;
+      text-wrap: nowrap;
       padding:1em;
       background-color: transparent;
       height:1.75em;
@@ -793,12 +794,13 @@ footer{
   }
   button{
       border:3px solid white;
-      width:calc(10.3em + 15px);
+      width:calc(10.3em + 18px);
       margin-top: 20px;
       padding:1em;
       background-color: transparent;
       height:1.75em;
       color:white;
+      text-wrap: nowrap;
       border-radius:0px;
       display: flex;
       justify-content:center;
