@@ -313,6 +313,7 @@ body{
 .text h5{
     font-family: 'Montserrat', sans-serif;
     margin-block: 10px;
+    text-wrap: nowrap;
 }
 .award_label{
     width:100%;
