@@ -87,6 +87,7 @@ body{
     align-items: center;
 }
 .tab2 h2{
+    text-align: center;
     font-family: 'Orbitron', sans-serif;
     font-size:30px;
     padding-top: 35px;
@@ -165,6 +166,7 @@ body{
     color:inherit;
 }
 .ann{
+    text-align: center;
     width:100%;
     margin:10px;
     padding:20px;
@@ -225,4 +227,240 @@ footer{
 .icon{
     width:35px;
     height:35px;
+}
+
+@media (max-width:576px) {
+    
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Fraunces&family=Gothic+A1&family=IBM+Plex+Mono:ital,wght@1,300&family=Montserrat:wght@500;700&family=Orbitron&family=Oswald:wght@300&family=Playfair+Display:wght@500&family=Roboto:wght@100;400&family=Rock+3D&family=Rouge+Script&family=Wavefont:wght@200&display=swap');
+
+*{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+@keyframes slide-in {
+    0% {transform: translateY(150px); }   
+  100% {transform: translateY(0); }
+}
+
+header{
+    text-align: center;
+    width:100%;
+    height: 75px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #131212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    overflow-x: hidden;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+}
+.fonts4{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 20px;
+}
+.font4 a{
+    text-decoration: none;
+    color:inherit;
+}
+#menu_list{
+    background-color: #131212;
+    visibility: hidden;
+    font-size: 0px;
+    padding:0px;
+    margin: 0px;
+}
+#menu_list ol{
+    width:100%;
+    background-color:#131212;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    list-style-type:none;
+}
+#menu_list li{
+    color:white;
+    text-decoration: none;
+    padding-left: 50px;
+}
+.tab1{
+    height:50vh;
+    width:100%;
+    padding:25px;
+    background-image: url(World_Tour_.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tab2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tab2 h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size:4.85vw;
+    padding-top:4vw;
+    margin:1.2vw;
+    text-align: center;
+}
+#tab2tik{
+    width:100%;
+    padding:25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth !important;
+}
+#tab2tik .nation_block{
+    flex:0 0 auto;
+    height:275px;
+    width:350px;
+    margin:10px;
+    padding:5px;
+    border-radius: 5px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+#tab2tik .nation_block .card_name{
+    font-weight: bolder;
+    font-size:5.25vw;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+#tab2tik::-webkit-scrollbar{
+    width:600px;
+}
+#tab2tik::-webkit-scrollbar-track{
+    background-color: #131212;
+    margin-inline:35px;
+    border-radius: 5px;
+}
+#tab2tik::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.nation_block img{
+    width:75px;
+    height:75px;
+}
+.font1{
+    animation: slide-in 1s ;
+    font-family: 'Orbitron', sans-serif;
+    margin-top:1.9m;
+    margin-left: 0.5em;
+    font-size:11vw;
+    font-weight: bold;
+}
+.font2{
+    font-size: 0px;
+  height:20vw;
+  width: 20vw;
+  margin-inline: 10vw;
+  padding-inline: 1.5vw;
+  background-image: url(Screenshot\ \(4231\)r.png);
+  background-size: contain;
+  background-position:center;
+  background-repeat: no-repeat;
+  filter:invert(1)
+}
+.font4{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 20px;
+}
+.font4 a{
+    text-decoration: none;
+    color:inherit;
+}
+.ann{
+    width:100%;
+    margin:10px;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+footer{
+    width:100%;
+    background-color: #131212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.f-font{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:1.05em;
+}
+.list{
+    width:100%;
+    height:100%;
+    padding:10px;
+    opacity: 0.8;
+    display: inline-block;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul li{
+    padding-top:5px;
+    font-size: 0.75em;
+}
+.final{
+    padding:5px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.Logo{
+    filter:invert(1);
+    opacity:0.75;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:2.5em;
+    height:2.5em;
+}
+.icon{
+    width:2.1em;
+    height:2.1em;
+}
 }
