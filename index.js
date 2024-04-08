@@ -1,3 +1,20 @@
+document.addEventListener("DOMContentLoaded", clickRate)
+
+function clickRate() {
+    let counter = 0;
+    document.querySelector("#menu0").addEventListener("click", function () {
+        counter++;
+        if (counter === 1){
+            showMaterials();
+        }
+        if (counter === 2){
+            hideMaterials();
+            counter = 0
+        }
+    });
+}
+
+
 function hideMaterials() {
     var materialContainer = document.getElementById("menu_list");
     var materials = materialContainer.querySelectorAll(".materials");
@@ -21,8 +38,5 @@ function showMaterials() {
         materials[i].style.padding = "calc(1vw + 2px)";
     }
 
-    setTimeout(function () {
-        hideMaterials();
-    }, 5000);
 }
 
